@@ -1,11 +1,5 @@
 * {
-  /* body,
-  h1,
-  h3,
-  p,
-  select,
-  option,
-  select { */
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -48,11 +42,10 @@ h1 {
   width: 750px;
   height: 820px;
   margin: 45px 65px 50px 35px;
-  flex-direction: row;
   float: left
 }
 
-.bookimg img {
+img {
   margin: auto;
   max-width: 100%;
   max-height: 100%;
@@ -62,9 +55,8 @@ h1 {
   width: 400px;
   height: 500px;
   background-repeat: none;
-  align-items: center;
   z-index: 1;
-  position: center;
+  margin: 0 20%;
 }
 
 .booktitle {
